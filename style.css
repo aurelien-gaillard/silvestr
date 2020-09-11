@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background: white url("img/bg.svg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+}
+
+section {;
+    color: white;
+    max-width: 30%;
+    text-align: justify;
+}
+
+h1 {
+    font-weight: 700;
+}
+img {
+    margin-left: 20px;
+    height: 400px;
+}
